@@ -84,34 +84,34 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#4b5262",  // Black.
-	"#bf616a",  // Red.
-	"#a3be8c",  // Green.
-	"#ebcb8b",  // Yellow.
-	"#81a1c1",  // Blue.
-	"#b48ead",  // Magenta.
-	"#89d0bA",  // Cyan.
-	"#e5e9f0",  // White.
+	/* 8 Normal Colors */
+	"#282c34",  // Black.
+	"#E06C75",  // Red.
+	"#98C379",  // Green.
+	"#E5C07B",  // Yellow.
+	"#61AFEF",  // Blue.
+	"#C678DD",  // Magenta.
+	"#56B6C2",  // Cyan.
+	"#ABB2BF",  // White.
 
-	"#434a5a",  // Bright Black.
-	"#b3555e",  // Bright Red.
-	"#93ae7c",  // Bright Green.
-	"#dbbb7b",  // Bright Yellow.
-	"#7191b1",  // Bright Blue.
-	"#a6809f",  // Bright Magenta.
-	"#7dbba8",  // Bright Cyan.
-	"#d1d5dc",  // Bright White.
+	/* 8 Bright Colors */
+	"#3E4452",  // Bright Black.
+	"#BE5046",  // Bright Red.
+	"#98C379",  // Bright Green.
+	"#D19A66",  // Bright Yellow.
+	"#61AFEF",  // Bright Blue.
+	"#C678DD",  // Bright Magenta.
+	"#56B6C2",  // Bright Cyan.
+	"#5C6370",  // Bright White.
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	// Special Colors.
-	"#cccccc", // Cursor color.
-	"#555555", // Reverse Cursor color.
+	"#ABB2BF", // Cursor color.
+	"#00FF00", // Reverse Cursor color.
 	"#b48ead", // Other Cursor color.
-	"#d8dee8", // Foreground.
+	"#ABB2BF", // Foreground.
 	"#282c34", // Background.
-	//"#2f343f", // Background (old).
 };
 
 

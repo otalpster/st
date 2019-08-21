@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mononoki Nerd Font Mono:pixelsize=14:antialias=true:hinting=true";
+static char *font = "Iosevka Custom:style=Regular:pixelsize=14:antialias=true:hinting=true";
 static int borderpx = 6;
 
 /*
